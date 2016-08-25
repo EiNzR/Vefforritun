@@ -1,0 +1,46 @@
+1.
+	ECMAScript er basically bara JavaScript, Hannað til að framkvæma client-side scripting.
+	Svo er Javascript og JScript bara extensions ofan á ECMA til að bæta við fleiri hlutum.
+
+2.
+	== convertar types áður en það ber saman, þannig ef maðurreynir t.d. að bera saman true eða false með tölu þá convertast true eða false í 1 eða 0.
+	
+		console.log(99 == "99"); // true
+		console.log(0 == false); // true
+	
+	
+	=== convertar ekki, þá verða hlutirnir að vera eins
+
+		console.log(99 === "99"); // false
+		console.log(0 === false); // false
+
+3.
+	a) 25 , number
+	b) 55 , string
+
+4.
+	2
+
+5.
+	use strict setur kóðann í strict mode, það þarf að declare-a allar breytur
+	og þar sem ekki er búið að declare-a "message" þá gefur B villu, en segir "hi" í A.
+
+6.
+	undefined þýðir að það sé búið að declare-a breytu enn ekki gefa henni value.
+	null er assignment value, það er hægt að geta breytu null til að sína ekkert value.
+	
+	undefined er type og null er object.
+
+7.
+	
+
+8.
+	foreach er bara notað fyrir arrays
+	for in er notað fyrir properties á objects
+	for of er ný leið til að fara í gegn um collections
+
+9.
+	NaN (Not-a-Number), Segir manni ef að value sé ekki legal number.
+
+10.
+	user, vegna þess að null er í raun ekkert value en user er value þannig að það overridar null.
