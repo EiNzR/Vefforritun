@@ -1,0 +1,12 @@
+﻿1.
+	//  "The getElementsByTagName() method returns a collection of an elements's child elements with the specified tag name, as a NodeList object." - w3schools.
+	// Nær í reference fyrir öll 'li' tögin.
+	var elements = document.getElementsByTagName('li');
+
+	// ef það er til alla vega 1 'li' tag þá fer kóðinn inn í þessa if setningu
+	if (elements.length > 0) {
+		// Nær í reference með indexið 2
+		var el = elements[2];
+		// Breytir className í 'cool'.
+		el.className = 'cool';
+	}
